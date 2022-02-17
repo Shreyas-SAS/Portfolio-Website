@@ -1,0 +1,27 @@
+Head Navigation Bar Navigates to different sections of the webpage
+
+Section 1: Personal Introduction
+   About Me: Will Tell A story about Development with Different Year References 
+   and Internship Experiences as a timeline flowchart with transitions.
+
+Section 2: Header Contact (LinkedIn, GitHub, CP, etc)
+    Contacts as Icons in a single Line 
+
+Section 3: Technologies - familiar Skilset
+    Medium Sized Hover Icons with subscript Names as a horizontal List
+
+Section 4: Recent Notable Projects
+    List of Projects (Main ones - 2-6 max inc Final Year Project in Top 3)
+
+Section 5: Codepen and small projects worth Display
+    At Max 4 Displays if Good enough Effects
+    * Primarily Loading icon, Dropdown menu animation, Card Animations
+
+Section 6: Prior Experiences (Internships)
+    Internship Listing with POR and Works
+
+Section 7: Technical Blog
+    List top 3 popular Blogs on Technology with directing Links
+
+Section 8: Contact Me
+    All Contact Icons as well as option to mail that opens mailing window, Contact Form, Wapp No.
