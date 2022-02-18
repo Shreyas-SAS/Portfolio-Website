@@ -3,3 +3,9 @@ References:
 https://www.youtube.com/watch?v=KWVJTRWILjU
 
 https://alvarotrigo.com/blog/web-developer-portfolio-examples/
+
+@ References:
+
+*Page loading:
+    Waves in bg:
+    Loader overlay:
