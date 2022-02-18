@@ -1,3 +1,5 @@
+BASIC PLAN STRUCTURE
+
 Head Navigation Bar Navigates to different sections of the webpage
 
 Section 1: Personal Introduction
@@ -17,11 +19,106 @@ Section 5: Codepen and small projects worth Display
     At Max 4 Displays if Good enough Effects
     * Primarily Loading icon, Dropdown menu animation, Card Animations
 
-Section 6: Prior Experiences (Internships)
+Section 6: Acheivements
+    All Acheivements Listed
+
+Section 7: Prior Experiences (Internships)
     Internship Listing with POR and Works
 
-Section 7: Technical Blog
+Section 8: Technical Blog
     List top 3 popular Blogs on Technology with directing Links
 
-Section 8: Contact Me
+Section 9: Contact Me
     All Contact Icons as well as option to mail that opens mailing window, Contact Form, Wapp No.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Detailed Plan of Design:
+
+!#!  Design Part:
+
+# CSS Loading Animation (Page Loading)
+
+Initial:
+Plan: 
+1. Black Ring on off-white Bg gradient Thickness 10% of inner Diameter (ring has hovering effect with thickness)
+2. Loading Animation White Arrow Head with diluting tail.
+3. Inside = waves
+4. Over Text Loading with dots
+
+After Loading
+Circle --> square (45 deg rotated) in 4 steps
+circle to square transition moves Right
+
+Page Loading animation ends..
+
+
+# Intro Animation:
+
+Initial:
+Plan: 
+    0. Navigation Bar that holds Direct Links to different Sections
+    1. Bg is solid Black gradient
+    2. tilted Square moves right leaving instances till 75% opacity in steps of 0%, 25%, 50%, 75% respectively
+    3. Greetings Appear.
+
+About Me: (off White Bg)
+    1. Story as a flow chart with timeline as dashed path on off white background and trail below path.
+    2. Flow chart is a distorted path that leads to different dots in curved fashion. 
+    3. Position displayed by highlighted path based on scrolling
+    4. every dot/node when reached pops up a card (non linked)
+        card format:
+        1. Heading/Event (1.5 times font size of description in Bold)
+        2. Small info 2 lines max.
+    5. end dot is circle that turns green on reaching end
+
+# Header Contacts (Continued Bg - Off white)
+Contact Icons with different hyperlinks mentioned in a Line of:
+    1. Linked In 
+    2. GitHub
+    3. Kaggle
+    4. Tech Blog
+    5-7. All CP
+        5. LeetCode
+        6. HackerRank
+        7. Code Chef
+        8. Code Forces
+
+# Familiar SkillSets (Bg = Black Solid Gradient)
+    Medium Sized Hover Icons with subscript Names as a horizontal List
+    Proficiency Progress Bars just below Icons with Simple Text Legend
+
+# Projects (6 Projects - 1 Final Year Project) (Bg off white gradient)
+    1. Display Cards with Screenshots/*iframe of Project website with overlay text explaining purpose.
+       At the side pane of the cards there will be icons linking to website, repository(Github) and repository
+    2. Side Pane has Description at the bottom that lists Tech Used, Time Required, Team/Individual, Impact.
+    3. Allignment Changes alternating Left and right
+
+# Codepen Projects (Bg Continued)
+    Displayed as small Size Cards with round edges
+
+# Acheivements (Bg Black)
+    List over a designed Card View
+
+# Prior Experiences (Bg continued as Black)
+    1. Prior Internship & Job Experiences
+    2. Testimonials as a slider
+
+#Technical Blog (Bg off-White)
+    Pages as Iframes with small 3-4 Line Description of content as medium sized cards
+
+# Contact Me Section (Bg Black)
+    Form
+        Translucent overlay (White)
+        Fields: 
+            1. Name
+            2. Organisation
+            3. Position
+            4. Message
+    LinkedIn
+    Email 
+    Whatsapp No.
+
+____________________________________________________________________________________________________________________
+
+Backend:
+Form Input Relay
