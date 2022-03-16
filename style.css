@@ -1,1 +1,17 @@
+body{
+    font-family: 'Roboto', 'Open Sans', sans-serif;  
+}
+
+.logo{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 2em;
+    font-weight: 200;
+    border: 2px solid black;
+    padding: 20px 10%;
+    margin: 0% 0% 0% 0%;
+}
+
+.navbr{
+background-color: rgba(0, 255, 255, 0.658);
+}
 
